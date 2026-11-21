@@ -7478,10 +7478,6 @@
 		(uuid "065b9809-e48c-4734-a210-a022a7aead34")
 	)
 	(no_connect
-		(at 353.06 96.52)
-		(uuid "0d7bc3b9-4460-41c3-be90-05781a8b03de")
-	)
-	(no_connect
 		(at 312.42 175.26)
 		(uuid "120b4d93-3db1-4910-98c2-c09d7b729db6")
 	)
@@ -7526,6 +7522,10 @@
 		(uuid "7f7424a7-42b5-4de3-8ba5-5d7be93d7ff0")
 	)
 	(no_connect
+		(at 351.79 48.26)
+		(uuid "8b8fb2ef-7aaf-4bac-b5b4-815c86c05f3e")
+	)
+	(no_connect
 		(at 375.92 99.06)
 		(uuid "8c6307f0-ef53-4462-b8d7-eefb728fc1b0")
 	)
@@ -7538,12 +7538,12 @@
 		(uuid "b245c1f1-0c5a-49ed-be05-b70942225afc")
 	)
 	(no_connect
-		(at 375.92 109.22)
-		(uuid "bfffedcf-fe8f-4f74-b4c4-486c0ac89b3d")
+		(at 353.06 101.6)
+		(uuid "b4d070a4-89a7-4882-a3b9-a81fd032baec")
 	)
 	(no_connect
-		(at 374.65 53.34)
-		(uuid "c63c83cd-41c2-442f-9cd9-b02e3c05542b")
+		(at 375.92 109.22)
+		(uuid "bfffedcf-fe8f-4f74-b4c4-486c0ac89b3d")
 	)
 	(no_connect
 		(at 322.58 162.56)
@@ -8313,6 +8313,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 106.68) (xy 386.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0419c4-233f-4104-9786-e3f83dd68b8a")
+	)
+	(wire
+		(pts
 			(xy 67.31 157.48) (xy 67.31 161.29)
 		)
 		(stroke
@@ -8900,16 +8910,6 @@
 			(type default)
 		)
 		(uuid "7b745b61-54c6-4345-b289-e2c8b3fb7533")
-	)
-	(wire
-		(pts
-			(xy 341.63 99.06) (xy 353.06 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d47a54a-75d8-48c8-b095-6c18b40c483d")
 	)
 	(wire
 		(pts
@@ -10281,6 +10281,16 @@
 		)
 		(uuid "18520c2c-a682-4cd6-8862-10da6a1e965f")
 	)
+	(label "CAN L 2"
+		(at 351.79 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18ff0a60-185b-4594-a914-753489ea4a9a")
+	)
 	(label "ASSI yellow gnd"
 		(at 293.37 107.95 0)
 		(effects
@@ -10360,6 +10370,16 @@
 			(justify right bottom)
 		)
 		(uuid "25501ba7-6808-41f9-b21b-8249f4dfce3a")
+	)
+	(label "Steering Fusibles (-)"
+		(at 353.06 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26e591cf-b389-417e-84ed-8b3fb1d7a748")
 	)
 	(label "EBS Fusibles (+)"
 		(at 334.01 217.17 180)
@@ -10521,26 +10541,6 @@
 		)
 		(uuid "4a5bf57b-ec2f-47b5-9fe3-106196856a13")
 	)
-	(label "Sensor presion GND"
-		(at 351.79 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4a936af6-a823-4ad1-b945-8a7c37b3cae0")
-	)
-	(label "Steering Fusibles (-)"
-		(at 375.92 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d24b86a-8ba8-4b13-ba52-9ebad4188c33")
-	)
 	(label "5V de LVMS"
 		(at 220.98 255.27 0)
 		(effects
@@ -10611,16 +10611,6 @@
 		)
 		(uuid "5acd543b-14e5-496f-8a01-c05063849b75")
 	)
-	(label "CAN H 2"
-		(at 374.65 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bfe1d08-0ef0-4d8b-87ae-f40dc4a65814")
-	)
 	(label "SDC in 1"
 		(at 57.15 173.99 0)
 		(effects
@@ -10630,16 +10620,6 @@
 			(justify left bottom)
 		)
 		(uuid "5cd9f082-acef-4860-a5be-acbf0e1d0125")
-	)
-	(label "EBS 1 in (-)"
-		(at 351.79 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5df06c4c-e0dc-4507-82f0-8c2c84b036d5")
 	)
 	(label "SDC out"
 		(at 67.31 157.48 0)
@@ -10711,6 +10691,26 @@
 		)
 		(uuid "703e28f1-4457-4e3a-87c3-ad297a2f2983")
 	)
+	(label "ASMS in 1"
+		(at 375.92 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "738fb7ec-1f79-4c74-85ff-98934a65f422")
+	)
+	(label "EBS 1 in (-)"
+		(at 351.79 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74fd22d1-2c25-4b55-938a-d74b1f662c6e")
+	)
 	(label "Steering Fusibles (-)"
 		(at 293.37 92.71 0)
 		(effects
@@ -10740,6 +10740,16 @@
 			(justify left bottom)
 		)
 		(uuid "7717d74a-d354-4238-b3ec-4c77c38abebd")
+	)
+	(label "EBS Fusibles (+)"
+		(at 353.06 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78003784-0658-4c99-a5cd-3e42db9c514c")
 	)
 	(label "ASSI blue"
 		(at 129.54 73.66 0)
@@ -10781,16 +10791,6 @@
 		)
 		(uuid "81581f55-f689-4add-806d-0d9be7978aca")
 	)
-	(label "24V de LVMS Sensor Presion 2"
-		(at 374.65 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82484a4a-8917-47f0-89e4-822ec1004f0d")
-	)
 	(label "CAN H 1 GF"
 		(at 356.87 78.74 180)
 		(effects
@@ -10810,6 +10810,16 @@
 			(justify left bottom)
 		)
 		(uuid "86b2bd4d-dec0-4bd5-b811-476b865b4699")
+	)
+	(label "ASSI yellow"
+		(at 374.65 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86e74e09-0296-46fe-ab61-cb13f1b8b7dc")
 	)
 	(label "5V de LVMS"
 		(at 100.33 247.65 0)
@@ -10851,16 +10861,6 @@
 		)
 		(uuid "8fc850b3-d1e3-4434-bd58-64f5b5650a38")
 	)
-	(label "CAN L 2"
-		(at 351.79 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90684e58-e5b0-4f1b-a496-a63eb1d5a8c4")
-	)
 	(label "Sensor presion 1 "
 		(at 374.65 45.72 0)
 		(effects
@@ -10900,16 +10900,6 @@
 			(justify right bottom)
 		)
 		(uuid "990ee1aa-4c53-4850-a1a0-066fe5592a46")
-	)
-	(label "EBS Fusibles (+)"
-		(at 353.06 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c1328e5-37cd-451b-aed5-1bfa41ad6605")
 	)
 	(label "Control SDC"
 		(at 130.81 140.97 0)
@@ -10960,16 +10950,6 @@
 			(justify left bottom)
 		)
 		(uuid "a3f9bfa3-8c2e-4be6-876c-bdc19a60d256")
-	)
-	(label "ASMS in 1"
-		(at 351.79 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a5a22abb-266d-446d-8a70-505bf946ae18")
 	)
 	(label "CAN L 1"
 		(at 100.33 203.2 0)
@@ -11211,6 +11191,16 @@
 		)
 		(uuid "cce5bb55-7e29-4b41-ae2a-cff8d3c02415")
 	)
+	(label "Sensor presion GND"
+		(at 374.65 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd8f53b3-8200-4dd4-9081-e327d1719114")
+	)
 	(label "EBS Fusibles (-)"
 		(at 369.57 153.67 180)
 		(effects
@@ -11291,6 +11281,16 @@
 		)
 		(uuid "df4ccc7a-08ef-41fb-90ff-e1a78167f553")
 	)
+	(label "CAN H 2"
+		(at 351.79 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e180291d-ba99-435f-8808-3d3ee4b77ae9")
+	)
 	(label "Debug 1"
 		(at 38.1 252.73 180)
 		(effects
@@ -11300,6 +11300,26 @@
 			(justify right bottom)
 		)
 		(uuid "e48c3c04-efbb-4675-bbab-386b85b5f30a")
+	)
+	(label "ASSI blue"
+		(at 374.65 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e60c8fa9-8c6a-4399-a14b-650ca07e2223")
+	)
+	(label "24V de LVMS Sensor Presion 2"
+		(at 351.79 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6eb2c3f-ad43-4d18-bf0d-ec8d6f3adfeb")
 	)
 	(label "LVMS in 24V"
 		(at 129.54 43.18 0)
@@ -11360,16 +11380,6 @@
 			(justify right bottom)
 		)
 		(uuid "eda895f0-f1be-4b6f-93b3-9145a0082bb6")
-	)
-	(label "ASSI yellow"
-		(at 351.79 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef8d4c37-9fa6-4273-ad37-091d1c58ccc1")
 	)
 	(label "EBS micro 1 (D1)"
 		(at 156.21 69.85 90)
@@ -11450,16 +11460,6 @@
 			(justify left bottom)
 		)
 		(uuid "faecf8cb-5b36-4990-9183-e096a75ef665")
-	)
-	(label "ASSI blue"
-		(at 351.79 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc0f715c-ec69-4fdd-8170-9a95262a44b4")
 	)
 	(label "CAN H 1"
 		(at 130.81 227.33 0)
@@ -13299,85 +13299,6 @@
 			(project "MicroDV2"
 				(path "/21accba5-cf67-4047-8fea-5ddf9967b643"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 341.63 99.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1716eed9-fccd-4562-b89d-692aedc81c05")
-		(property "Reference" "#FLG08"
-			(at 339.725 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 337.82 99.0599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 341.63 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18f672ff-e416-45cd-86dc-9c12cc8065de")
-		)
-		(instances
-			(project "MicroDV2"
-				(path "/21accba5-cf67-4047-8fea-5ddf9967b643"
-					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -24240,6 +24161,85 @@
 			(project "MicroDV2"
 				(path "/21accba5-cf67-4047-8fea-5ddf9967b643"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 386.08 106.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b3ba50-f14a-454a-b808-27709cd918f6")
+		(property "Reference" "#FLG08"
+			(at 387.985 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 389.89 106.6801 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 386.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa478246-ef65-41a9-b50a-429f8702a0fa")
+		)
+		(instances
+			(project "MicroDV2"
+				(path "/21accba5-cf67-4047-8fea-5ddf9967b643"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
